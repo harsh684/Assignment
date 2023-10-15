@@ -1,0 +1,18 @@
+.bars{
+    height: 230px;
+    width: 2.8vw;
+    background-color: rgb(253, 241, 255);
+    border-radius: 7px;
+}
+.customers-img{
+    width: 90%;
+    height: 70%;
+}
+@media (max-width: 768px){
+    .bars{
+        height: 180px;
+        width: 13vw;
+        background-color: rgb(253, 241, 255);
+        border-radius: 7px;
+    }
+}

@@ -1,0 +1,49 @@
+/* header component */
+.header-name{
+    font-size: 22px;
+}
+.search-bar,.card-cust{
+    background-color: white;
+}
+/* CardUpper component*/
+
+.card-img{
+    padding: 0px 20px;
+    width: 50%;
+    border-radius: 50%;
+}
+.card-amount{
+    font-size: 24px;
+    font-weight: 900;
+}
+.card-text{
+    font-size: 14px;
+}
+.card-cust:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .header-name{
+        font-size: 16px;
+    }
+    .search-bar{
+        width: 100%;
+        font-size: 13px;
+    }
+    .card-cust{
+        margin: 0px 0px;
+    }
+    .card-img{
+        padding: 0px 16px;
+        width: 50%;
+        border-radius: 50%;
+    }
+    .card-amount{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+}

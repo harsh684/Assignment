@@ -1,0 +1,26 @@
+.searchbar,.btn{
+    background-color: aliceblue;
+}
+
+.item-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.item-text{
+    font-size: 13px;
+}
+@media (max-width: 700px){
+    .main-title{
+        font-size: 16px;
+    }
+    .searchbar{
+        font-size: 10px;
+    }
+    .item-title{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .item-text{
+        font-size: 11px;
+    }
+}
